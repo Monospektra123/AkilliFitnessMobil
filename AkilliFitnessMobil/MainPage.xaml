@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AkilliFitnessMobil.MainPage"
+             BackgroundColor="#1E1E1E">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,50" VerticalOptions="Center">
+
+            <Label Text="Akıllı Fitness" 
+                   FontSize="32" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="#00E676" />
+
+            <Label Text="Hoş Geldiniz, Lütfen Giriş Yapın" 
+                   FontSize="16" 
+                   HorizontalOptions="Center" 
+                   TextColor="White" />
+
+            <Entry x:Name="EmailEntry"
+                   Placeholder="E-posta"
+                   Keyboard="Email"
+                   TextColor="White"
+                   PlaceholderColor="LightGray"
+                   BackgroundColor="#333333" />
+
+            <Entry x:Name="PasswordEntry"
+                   Placeholder="Şifre"
+                   IsPassword="True"
+                   TextColor="White"
+                   PlaceholderColor="LightGray"
+                   BackgroundColor="#333333" />
+
+            <Button Text="Giriş Yap"
+                    Clicked="OnLoginClicked"
+                    BackgroundColor="#00E676"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    CornerRadius="10" />
+
+            <Button Text="Hesabın yok mu? Kayıt Ol"
+                    Clicked="OnRegisterClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="#00E676" />
+
+            <ActivityIndicator x:Name="LoadingIndicator" 
+                               IsRunning="False" 
+                               IsVisible="False" 
+                               Color="#00E676" />
+
+            <Label x:Name="MessageLabel" 
+                   TextColor="Red" 
+                   HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
