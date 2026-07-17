@@ -6,8 +6,8 @@ Kişisel antrenman ve vücut ölçümlerini takip etmek için geliştirdiğim cr
 
 Proje şu an aktif olarak geliştiriliyor. Tamamlanan ve üzerinde çalıştığım modüller şu şekilde:
 
-* **[Tamamlandı] Kimlik Doğrulama:** Firebase Authentication ile kullanıcı kayıt (register) ve giriş (login) sistemi.
-* **[Tamamlandı] Yönlendirme:** Güvenli giriş sonrası Dashboard (Ana Sayfa) ekranına geçiş işlemleri.
+* **[Tamamlandı] Kimlik Doğrulama:** Firebase Authentication ile kullanıcı kayıt ve giriş sistemi.
+* **[Tamamlandı] Yönlendirme:** Güvenli giriş sonrası Dashboard ekranına geçiş işlemleri.
 * **[Geliştiriliyor] Veritabanı Bağlantısı:** Cloud Firestore entegrasyonu (Kullanıcı verilerinin kaydedilmesi ve okunması için CRUD operasyonları yazılıyor).
 
 ## 💻 Kullanılan Teknolojiler
